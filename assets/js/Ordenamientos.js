@@ -22,7 +22,7 @@ function Seleccion(){
     for(var i=0; i<n; i++){
         min = i;
         for(var j=i+1; j<n; j++){
-            if(array[min]>array[j]){
+            if(parseInt(array[min])>parseInt(array[j])){
                 min=j;
             }
         }
@@ -39,7 +39,7 @@ function Burbuja(){
     n = array.length;
     for(var i=0; i<n; i++){
         for(var j=0; j<n-i;j++){
-            if(array[j]>array[j+1]){
+            if(parseInt(array[j])>parseInt(array[j+1])){
                 aux = array[j];
                 array[j]=array[j+1];
                 array[j+1] = aux;

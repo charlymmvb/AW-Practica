@@ -3,23 +3,48 @@
     <head>
         <title>Textos</title>
         <script src="js/Textos.js" type="text/javascript" ></script>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="shortcut icon" href="img/Icon.png" type="image/x-icon">
+        <meta charset="utf-8"/>
     </head>
     <body>
-        <label>Ingrese el texto.</label>
-        <br><br>
-        <textarea id="texto" style="width: 400px ; height: 100px;"></textarea>
-        <br><br>
-        <button id="boton" onclick="Comenzar();">Comenzar</button>
-        <br><br>
-        <p>Longitud: <span id="pan"></span></p>
-        <br><br>
-        <p>May&uacutesculas:</p>
-        <br>
-        <textarea id="panzon" style="width: 400px ; height: 100px;"></textarea>
-        <br><br>
-        <p>Min&uacutesculas:</p>
-        <br>
-        <textarea id="panzona" style="width: 400px ; height: 100px;"></textarea>
-
+        <header class="header">
+            <img class="img-IPN" src="img/Logo_IPN.png">
+            <h1>Instituto Polit&eacutecnico Nacional</h1>
+            <img class="img-Escom" src="img/EscudoESCOM.png">
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ejerhtml.html">HTML</a></li>
+                <li><a href="ejerjs.html">JS</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <section class="section">
+                <label>Ingrese el texto.</label>
+                <br><br>
+                <textarea id="texto" style="width: 400px ; height: 100px;"></textarea>
+                <br><br>
+                <button id="boton" onclick="Comenzar();">Comenzar</button>
+                <br><br>
+                <p>Longitud: <span id="pan"></span></p>
+                <br><br>
+                <p>May&uacutesculas:</p>
+                <br>
+                <textarea id="panzon" style="width: 400px ; height: 100px;"></textarea>
+                <br><br>
+                <p>Min&uacutesculas:</p>
+                <br>
+                <textarea id="panzona" style="width: 400px ; height: 100px;"></textarea>
+            </section>
+            <aside class="aside">
+                <h2 class="h2">DESCRIPCI&OacuteN</h2>
+                <p>Dado un arreglo de n&uacutemeros, se debe encontrar la posición y valor del m&aacutes grande</p>
+            </aside>
+        </main>
+        <footer class="footer">
+            <p>&copy Carlos Mondrag&oacuten, Reservados todos los derechos. </p>
+        </footer>                
     </body>
 </html>
